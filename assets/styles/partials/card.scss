@@ -1,0 +1,65 @@
+.card {
+    background-color: $background-light;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding-block: 12px;
+    margin-block: 11px;
+    margin-inline: 16px;
+    border-radius: 12px;
+
+    h2 {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    p {
+        color: #9DA0A5;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    &.card_nav {
+        .icon {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 80px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                padding-inline: 8px;
+            }
+        }
+
+        .fleche {
+            margin-block: auto;
+            padding-inline: 12px;
+
+            img {
+                width: 12px;
+            }
+        }
+
+        .infosvg{
+            padding-inline: 28px;
+        }
+    }
+
+    &.card_s {
+        div{
+            margin-inline: 7px;
+        }
+        img {
+            width: 80px;
+        }
+    }
+}
