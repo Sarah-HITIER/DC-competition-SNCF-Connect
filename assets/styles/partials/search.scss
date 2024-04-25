@@ -1,0 +1,29 @@
+.search {
+    background-color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 20px;
+
+    .white {
+        display: flex;
+        padding-inline: 16px;
+
+        h2 {
+            color: #000;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            margin-inline: 8px;
+        }
+    }
+
+    .blue {
+        border-radius: 100px;
+        background: #2384DD;
+        padding: 20px;
+
+    }
+}
