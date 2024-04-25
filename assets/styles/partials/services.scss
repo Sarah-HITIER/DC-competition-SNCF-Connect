@@ -1,0 +1,33 @@
+html {
+    background-color: $background;
+}
+
+.card {
+    background-color: $background-light;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15px 4px;
+    padding-block: 12px;
+    margin-block: 11px;
+    border-radius: 12px;
+
+    h2 {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    p {
+        color: #9DA0A5;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    img {
+        width: 80px;
+    }
+}

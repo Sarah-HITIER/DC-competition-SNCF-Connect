@@ -1,0 +1,5 @@
+mixin svg-icon
+  -
+    var icon = attributes['svg-icon-name']
+  
+  img(src= "../../assets/img/svg/" + icon.replaceAll(" ","") + ".svg")
