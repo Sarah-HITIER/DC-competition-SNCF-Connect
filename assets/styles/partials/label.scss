@@ -1,0 +1,22 @@
+.label{
+    border-radius: 20px;
+    padding-inline: 1.5em;
+    padding-block: 0.2em;
+    margin-inline: 1.5em;
+    border: 2px solid;
+
+    &.eco{
+        color: $secondary;
+        border-color: $secondary;
+    }
+
+    &.rapide{
+        color: $tertiary;
+        border-color: $tertiary;
+    }
+
+    &.access{
+        color: $primary;
+        border-color: $primary;
+    }
+}
