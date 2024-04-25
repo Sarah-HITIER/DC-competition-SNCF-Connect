@@ -1,0 +1,40 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "webpack --watch",
+        "dev": "webpack --watch --mode development",
+        "prod": "webpack --mode production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.0",
+        "autoprefixer": "^10.4.0",
+        "babel-loader": "^8.2.3",
+        "css-loader": "^6.5.1",
+        "extract-loader": "^5.1.0",
+        "file-loader": "^6.2.0",
+        "json5": "^2.2.3",
+        "merge": "^2.1.1",
+        "mini-css-extract-plugin": "^2.4.4",
+        "node-sass": "^7.0.3",
+        "postcss-loader": "^6.2.0",
+        "pug": "^2.0.0",
+        "pug-loader": "^2.4.0",
+        "sass-loader": "^12.3.0",
+        "scss-tokenizer": "^0.4.3",
+        "style-loader": "^3.3.1",
+        "watch": "^1.0.2",
+        "webpack": "^5.62.2",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.4.0"
+    },
+    "dependencies": {
+        "html-webpack-plugin": "^5.5.0"
+    }
+}
