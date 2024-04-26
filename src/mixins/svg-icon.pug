@@ -1,0 +1,8 @@
+mixin svg-icon
+  -
+    var icon = attributes['svg-icon-name']
+  
+  if icon.replaceAll(" ","") == "Informationslégales"
+    img.infosvg(src= "../../assets/img/svg/" + icon.replaceAll(" ","") + ".svg")
+  else
+    img(src= "../../assets/img/svg/" + icon.replaceAll(" ","") + ".svg")

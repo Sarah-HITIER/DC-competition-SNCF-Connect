@@ -1,0 +1,9 @@
+include svg-icon
+
+mixin servicesCard(titre, description)
+    .card.card_s
+        div
+            h2= titre
+            p= description
+        +svg-icon(svg-icon-name= titre)
+            

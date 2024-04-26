@@ -1,0 +1,9 @@
+include svg-icon
+
+mixin searchBar(text)
+    .search
+        .white
+            +svg-icon(svg-icon-name= "search")
+            h2= text
+        .blue
+            +svg-icon(svg-icon-name= "mic")

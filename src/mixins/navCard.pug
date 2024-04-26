@@ -1,0 +1,11 @@
+include svg-icon
+
+mixin navCard(title, description)
+    .card.card_nav
+        .icon
+            +svg-icon(svg-icon-name= title)
+            div
+                h2= title
+                p= description
+        .fleche
+            +svg-icon(svg-icon-name= "navCardFleche")
